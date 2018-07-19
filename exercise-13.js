@@ -1,3 +1,5 @@
+// by Renaldy Pratama
+
 function countProfit(shoppers) {
   let listBarang = [
     ["Sepatu Stacattu", 1500000, 10],
@@ -38,7 +40,7 @@ function countProfit(shoppers) {
         jumlah[2] = jumlah[2] + temp.amount;
       }
     } else {
-        break;
+      break;
     }
     i++;
   }
