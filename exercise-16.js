@@ -2,11 +2,11 @@
 
 function makanTerusRekursif(waktu) {
   if (waktu <= 0) {
-      return 0;
+    return 0;
   } else {
-      var sisaWaktu = waktu - 15;
+    var sisaWaktu = waktu - 15;
   }
-  return 1 + makanTerusRekursif(sisaWaktu)
+  return 1 + makanTerusRekursif(sisaWaktu);
 }
 
 // TEST CASES
